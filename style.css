@@ -12,6 +12,12 @@ body {
 /* editor fng size 14px */
 /* uppercase txt transform */
 /* bold font width */
+/* cnter-txt */
+/* heading */
+h1 {
+  text-align: center;
+}
+
 /* text box */
 #textBox {
   margin-top: 10px;

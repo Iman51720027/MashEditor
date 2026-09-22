@@ -16,6 +16,12 @@ $ed-fntsize: 14px;
 $upcase: uppercase;
 /* bold font width */
 $fnt-wdth: bold;
+/* cnter-txt */
+$center-txt: center;
+/* heading */
+h1 {
+  text-align: $center-txt;
+}
 /* text box */
 #textBox {
   margin-top: $margin-tenpx;
