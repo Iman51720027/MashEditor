@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+/* pointer cursor var */
+/* lft margin 10px */
+/* editor fng size 14px */
+/* uppercase txt transform */
+/* bold font width */
+/* text box */
+#textBox {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 340px;
+  height: 160px;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/* run btn */
+#runBtn {
+  width: 90px;
+  height: 40px;
+  margin-left: 10px;
+  /* pointer cursor call var */
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* output box */
+#outputBox {
+  width: 340px;
+  height: 160px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+/* pointer cursor var */
+$pnter: pointer;
+/* lft margin 10px */
+$margin-tenpx: 10px;
+/* editor fng size 14px */ 
+$ed-fntsize: 14px;
+/* uppercase txt transform */
+$upcase: uppercase;
+/* bold font width */
+$fnt-wdth: bold;
+/* text box */
+#textBox {
+  margin-top: $margin-tenpx;
+  margin-left: $margin-tenpx;
+  width: 340px;
+  height: 160px;
+  font-size: $ed-fntsize;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+/* run btn */
+#runBtn {
+  width: 90px;
+  height: 40px;
+  margin-left: $margin-tenpx;
+  /* pointer cursor call var */
+  cursor: $pnter;
+  font-size: 18px;
+  text-transform: $upcase;
+  font-weight: $fnt-wdth;
+  
+}
+/* output box */
+#outputBox {
+  width: 340px;
+  height: 160px;
+  border: 1px solid black;
+  margin-left: $margin-tenpx;
+  margin-top: $margin-tenpx;
+  font-size: $ed-fntsize;
+}
