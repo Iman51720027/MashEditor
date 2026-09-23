@@ -8,12 +8,18 @@ var outputBox = document.getElementById("outputBox");
 runBtn.addEventListener('click', function() {
   // code var
   var code = textEditor.value;
-  // bik se suru hota hei to
-  if (code.startsWith("bik")) {
-    outputBox.textContent = code.substring(4); // (4) kata jayega
+  var code1 = code.split('\n')
+  outputBox.textContent = "";
+  // loop
+  for (var i = 0; i < code1.length; i++) {
+    // bik se suru hota hei to
+  if (code1[i].startsWith("bik")) {
+    outputBox.textContent += code1[i].substring(4) + "\n"; // (4) kata jayega
   }
   else { 
     // error message
     outputBox.textContent = "syntax error: invalid code";
+    break;
+  }
   }
 })
