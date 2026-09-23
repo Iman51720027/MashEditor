@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: sans-serif;
   background-color: hsl(93, 57.8947368421%, 90.5%);
 }
 
@@ -53,10 +54,11 @@ h1 {
   width: 340px;
   height: 160px;
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: 13px;
   margin-top: 10px;
   font-size: 14px;
   overflow: scroll;
+  white-space: pre-line;
 }
 
 /*# sourceMappingURL=style.css.map */

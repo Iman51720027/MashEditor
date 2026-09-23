@@ -4,6 +4,7 @@
 }
 $bdy-bg-color:  hwb(93 85% 4%);
 body {
+  font-family: sans-serif;
   background-color: $bdy-bg-color;
 }
 /* pointer cursor var */
@@ -58,8 +59,9 @@ $btn-color: white;
   width: 340px;
   height: 160px;
   border: 1px solid black;
-  margin-left: $margin-tenpx;
+  margin-left: 13px;
   margin-top: $margin-tenpx;
   font-size: 14px;
   overflow: $scrl;
+  white-space: pre-line;
 }
