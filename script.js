@@ -6,6 +6,9 @@ var runBtn = document.getElementById("runBtn");
 var outputBox = document.getElementById("outputBox");
 // run btn event
 runBtn.addEventListener('click', function() {
+  textEditor.style.display = "none";
+  runBtn.style.display = "none";
+  outputBox.style.display = "block";
   // code var
   var code = textEditor.value;
   var code1 = code.split('\n')
@@ -22,4 +25,11 @@ runBtn.addEventListener('click', function() {
     break;
   }
   }
+})
+
+// 15px font size btn 
+
+var ftinpxFnSz = document.getElementById("ftinpx-fn-sz");
+ftinpxFnSz.addEventListener('click', function(){
+  textEditor.style.fontSize = "15px";
 })
