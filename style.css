@@ -16,6 +16,7 @@ body {
 /* scroll value var */
 /* heading */
 h1 {
+  text-align: center;
   margin-left: 10px;
 }
 
@@ -44,6 +45,7 @@ h1 {
   font-weight: bold;
   background-color: #36f836;
   color: white;
+  border: 1px solid black;
 }
 
 /* output box */

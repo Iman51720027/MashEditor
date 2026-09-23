@@ -22,6 +22,7 @@ $center-txt: center;
 $scrl: scroll;
 /* heading */
 h1 {
+  text-align: $center-txt;
   margin-left: 10px;
 }
 /* text box */
@@ -50,6 +51,7 @@ $btn-color: white;
   font-weight: $fnt-wdth;
   background-color: $btn-bg-color;
   color: $btn-color;
+  border: 1px solid black;
 }
 /* output box */
 #outputBox {
