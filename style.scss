@@ -28,7 +28,7 @@ $nn: none;
   margin-top: $margin-tenpx;
   margin-left: $margin-tenpx;
   width: 340px;
-  height: 260px;
+  height: 350px;
   font-size: $ed-fntsize;
   padding-left: 5px;
   padding-top: 5px;
@@ -54,7 +54,7 @@ $btn-color: white;
 /* output box */
 #outputBox {
   width: 340px;
-  height: 260px;
+  height: 350px;
   padding: 8px;
   border: 1px solid black;
   margin-left: $margin-tenpx;
@@ -65,11 +65,26 @@ $btn-color: white;
   background-color: $btn-color;
 }
 
+/* btn var px w + h */
+
+$width: 110px;
+$height: 40px;
+
 /* 15px fnt size */
 
 #ftinpx-fn-sz {
-  width: 110px;
-  height: 40px;
+  width: $width;
+  height: $height;
   margin: $margin-tenpx;
-  font-size: $ed-fntsize;
+  font-weight: $fnt-wdth;
+  cursor: $pnter;
+}
+
+/* back btn */
+
+#back {
+  width: $width;
+  height: $height;
+  font-weight: $fnt-wdth;
+  cursor: $pnter;
 }

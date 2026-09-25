@@ -33,3 +33,13 @@ var ftinpxFnSz = document.getElementById("ftinpx-fn-sz");
 ftinpxFnSz.addEventListener('click', function(){
   textEditor.style.fontSize = "15px";
 })
+
+// back btn logic 
+
+var backBtn = document.getElementById("back");
+// back btn event 
+backBtn.addEventListener('click',() => {
+  outputBox.style.display = "none";
+  textBox.style.display = "inline";
+  runBtn.style.display = "inline";
+})
